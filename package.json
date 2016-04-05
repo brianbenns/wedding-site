@@ -1,0 +1,29 @@
+{
+  "name": "wedding",
+  "description": "Brian and Julie's Wedding Website",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trustpilot/businesssite.git"
+  },
+  "dependencies": {
+    "ejs": "^2.4.1",
+    "express": "4.13.4",
+    "jade": "^1.11.0"
+  },
+  "devDependencies": {
+    "gulp": "3.9.1",
+    "gulp-shell": "0.5.2"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "private": true,
+  "bugs": {
+    "url": "https://github.com/trustpilot/businesssite/issues"
+  },
+  "homepage": "https://github.com/trustpilot/businesssite#readme",
+  "version": "1.0.0",
+  "author": "",
+  "license": "ISC"
+}
