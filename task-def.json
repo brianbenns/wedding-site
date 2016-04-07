@@ -1,0 +1,15 @@
+{
+  "containerDefinitions": [
+    {
+      "name": "website",
+      "image": "bbenns/wedding-website:latest",
+      "memory": 256,
+      "portMappings": [{
+                      "containerPort": 5000,
+                      "hostPort": 80
+        }],
+      "essential": true
+    }
+  ],
+  "family": "wedding-website"
+}
