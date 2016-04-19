@@ -875,6 +875,18 @@ ul, li {
 .people .row:nth-child(2) .left-content, .people .row:nth-child(2) .right-content {
 	margin-bottom: 50px;
 }
+.people .row:nth-child(3) .left-content, .people .row:nth-child(2) .right-content {
+	margin-bottom: 50px;
+}
+.people .row:nth-child(4) .left-content, .people .row:nth-child(2) .right-content {
+	margin-bottom: 50px;
+}
+.people .row:nth-child(5) .left-content, .people .row:nth-child(2) .right-content {
+	margin-bottom: 50px;
+}
+.people .row:nth-child(6) .left-content, .people .row:nth-child(2) .right-content {
+	margin-bottom: 50px;
+}
 .left-content .profile {
 	text-align: right;
 }
