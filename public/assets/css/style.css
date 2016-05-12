@@ -58,7 +58,7 @@ body, html {
 }
 h1, h2, h3, h4, h5, h6 {
 	padding-bottom: 5px;
-	color: #d44646;
+	color: #451A3F;
 	line-height: normal;
 	font-weight: normal;
 	margin: 0 0 10px;
@@ -72,14 +72,14 @@ h2, h2, h3 {
 }
 
 h1 { font-size: 60px;}
-h2 { font-size: 48px;}
+h2 { font-size: 55px;}
 h3 { font-size: 36px;}
 h4 { font-size: 26px;}
 h5 { font-size: 18px;}
 h6 { font-size: 14px;}
 
 h2 small {
-	font-size: 24px;
+	font-size: 30px;
 	line-height: 14px;
 	letter-spacing: 0.025em;
 }
@@ -252,7 +252,7 @@ ul, li {
 */
 
 .nav-block {
-	background: #d44646;
+	background: #451A3F;
 	padding: 20px 0;
 	width: 100%;
 	z-index: 1000;
@@ -269,7 +269,7 @@ ul, li {
 	padding: 10px 0 10px;
 }
 .nav-block .navbar-default {
-  background-color: #d44646;
+  background-color: #451A3F;
   border-color: transparent;
 }
 .nav-block .navbar-default .navbar-toggle {
@@ -308,7 +308,9 @@ ul, li {
 	text-transform: capitalize;
 	color: #fff;
 }
-
+.nav-block ul > li a:hover {
+  color: #b5a77e;
+}
 .nav-block ul.navbar-nav > li > ul > li {
 	float: none;
 	display: block;
@@ -321,7 +323,7 @@ ul, li {
 	padding: 10px 20px;
 }
 .nav-block ul.navbar-nav > li > ul > li a:hover {
-	color: #D44646;
+	color: #b5a77e;
 }
 .nav-block ul > li a:hover {
 	color: whitesmoke;
@@ -330,7 +332,7 @@ ul, li {
 .navbar-default .navbar-nav > .current > a:hover,
 .navbar-default .navbar-nav > .current > a:focus {
     background:none;
-	color: #000;
+	color: #b5a77e;
 }
 .social-icon li {
 	display: inline-block;
@@ -356,6 +358,9 @@ ul, li {
 	line-height: normal;
 	text-transform: uppercase;
 }
+.nav-block .navbar-nav > li > a:hover {
+  color: #b5a77e;
+}
 .nav-block .navbar-nav li {
 	margin: 0 10px;
 }
@@ -374,7 +379,7 @@ ul, li {
 .banner-logo {
 	position: relative;
 	display: inline-block;
-	background: url(../../images/icon/main_logo.png) no-repeat center center;
+	background: url(../../images/icon/ArtDecoHeader.png) no-repeat center center;
 	width: 310px;
 	height: 305px;
 	padding: 115px 0px;
@@ -694,7 +699,7 @@ ul, li {
 	left: 50%;
 	margin-left: -3px;
 	width: 6px;
-	background: #d44646;
+	background: #b5a77e;
 }
 .timeline:after {
 	content: "";
@@ -762,7 +767,7 @@ ul, li {
 	height: 0;
 	border-style: solid;
 	border-width: 10.5px 15px 10.5px 0px;
-	border-color: transparent #d44646 transparent transparent;
+	border-color: transparent #b5a77e transparent transparent;
 }
 .reverse .timeline-block-right:before {
 	content: none;
@@ -776,7 +781,7 @@ ul, li {
 	height: 0;
 	border-style: solid;
 	border-width: 10.5px 0 10.5px 15px;
-	border-color: transparent transparent transparent #d44646;
+	border-color: transparent transparent transparent #b5a77e;
 }
 .reverse.pull-right {
 	float: left !important;
@@ -799,7 +804,7 @@ ul, li {
 	letter-spacing: 0.025em;
 }
 .timeline-head {
-	background: #d44646;
+	background: #b5a77e;
 }
 .timeline-head h4 {
 	color: #FFF;
