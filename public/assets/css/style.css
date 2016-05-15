@@ -528,7 +528,7 @@ ul, li {
 	height: auto;
 	overflow: hidden;
 	text-align: center;
-	border: 5px solid #ff8b8b;
+	border: 5px solid #b5a77e;
 	border-radius: 50%;
 	margin: 0 auto;
 }
@@ -1331,7 +1331,7 @@ input[type="submit"]:focus, input[type="submit"]:active {
 
 .sbHolder {
 	background: none;
-	border: 0px solid #e1704b;
+	border: 1px solid #e1704b;
 	width: 100%;
 	height: 45px;
 }
