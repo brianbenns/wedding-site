@@ -189,7 +189,6 @@ ul, li {
 /*-----transparent background-----*/
 
 .color-overlay {
-	background: rgba(0,0,0,0.7);
 	padding: 100px 0;
 }
 
@@ -499,7 +498,7 @@ ul, li {
   }
 
 .color-overlay-bg {
-    background: rgba(126, 97, 97, .3);
+    /*background: rgba(126, 97, 97, .3);*/
     position: absolute;
     width: 100%;
     top: 0px;
@@ -829,9 +828,13 @@ ul, li {
 	background: url(../../images/bg/section_bg.jpg) no-repeat fixed center center;
 }
 .rsvpLink .color-overlay {
-	background: rgba(0,0,0,.7);
+
 	padding: 70px 0;
 }
+.rsvpLink .not-color-overlay {
+	padding: 70px 0;
+}
+
 .rsvpLink-title {
     font-family: 'Lobster', cursive;
     display: block;
@@ -1708,7 +1711,6 @@ footer {
 	text-align: center;
 }
 footer .color-overlay {
-    background: rgba(0,0,0,.8);
     padding: 70px 0;
 }
 .footer-logo {
