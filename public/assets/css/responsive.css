@@ -23,9 +23,9 @@
      font-size: 16px;
   }
   .thumb-img {
-  	height: 452px;    
+  	height: 452px;
   	width: 452px;
-  } 
+  }
   .thumb-img img {
 	height: 442px;
 	width: 442px;
@@ -41,9 +41,9 @@
 		line-height: normal
 	}
 	.thumb-img {
-	  	height: 310px;	    
+	  	height: 310px;
 	  	width: 310px;
-	} 
+	}
     .thumb-img img {
 		height: 302px;
 		width: 302px;
@@ -60,7 +60,7 @@
   	{
   		margin-bottom: 28px;
         font-size: 13px;
-  	}	
+  	}
 }
 
 @media screen and (max-width: 1024px) {
@@ -71,7 +71,7 @@
 		}
 }
 
-@media screen and (max-width: 992px) {  
+@media screen and (max-width: 992px) {
     .rsvpLink, .quote, .blog-bg, footer {
         background-size: cover;
         -webkit-background-size: cover;
@@ -85,7 +85,7 @@
     }
 }
 
-@media screen and (min-width: 992px) {  
+@media screen and (min-width: 992px) {
   .nav-block .navbar-nav li {
       margin: 0 10px;
   }
@@ -115,9 +115,9 @@
 		padding:5px;
    }
    .thumb-img {
-  	    height: 280px;    
+  	    height: 280px;
   	    width: 280px;
-  } 
+  }
   .thumb-img img {
 	    height: 272px;
 	    width: 272px;
@@ -142,7 +142,7 @@
 		margin: 0;
 	}
 	.story-detail {
-		padding: 0px 0px; 
+		padding: 0px 0px;
 	}
 	.single-blog-meta ul li {
 		padding: 15px 12px;
@@ -251,7 +251,7 @@
 		font-size: 18px;
 	}
 	.blog-post {
-		width: 300px;	
+		width: 300px;
 		margin: 0 auto 30px;
     }
     .thumbnail-block-content {
@@ -263,9 +263,9 @@
 		margin-bottom: 20px;
 	}
     .thumb-img {
-  	  height: 250px;    
+  	  height: 250px;
   	  width: 250px;
-    } 
+    }
 	.thumb-img img {
 	  height: 242px;
 	  width: 242px;
@@ -301,7 +301,7 @@
 		font-size: 30px;
 	}
 	.social-icon {
-        margin-top: 20px;		
+        margin-top: 20px;
 	}
 	.next-arrow a {
 		top: 0;
@@ -364,6 +364,15 @@
 	.timing .time_circles > div {
 		display: block;
 	}
+    div.timing.circle{
+        display: none;
+    }
+    .banner-logo{
+        margin:0px;
+    }
+    .banner .wrapper{
+        padding-bottom:0px;
+    }
 }
 @media screen and (max-width: 620px) {
 	.timing .time_circles > div > h4 {
@@ -381,14 +390,14 @@
 		margin-bottom: 20px;
 	}
     .timeline:before {
-    	left: 22px;    
+    	left: 22px;
     	margin-left: 0;
     }
     .timeline:after{
     	content: none;
     }
     .love-sign {
-    	left: 25px;    
+    	left: 25px;
     	top: 5px;
     }
     .timeline .pull-left, .timeline .pull-right {
@@ -396,12 +405,12 @@
     }
     .timeline-block-left, .timeline-block-right, .reverse .timeline-block-left, .reverse .timeline-block-right {
     	float: none;
-    	width: auto;    
+    	width: auto;
     	text-align: center;
     	margin-bottom: 0px;
     	margin-top: 10px;
     }
-    .timeline-left, .timeline-right {    	
+    .timeline-left, .timeline-right {
     	width: auto;
     }
     .timeline-block-right:before, .reverse .timeline-block-right:after {
@@ -419,6 +428,12 @@
 	.col-sm-4:last-child .gift-block {
 	  margin-bottom: 0px;
 	 }
+     .banner-logo{
+         margin:0px;
+     }
+     .banner .wrapper{
+         padding-bottom:0px;
+     }
 }
 @media screen and (max-width: 480px) {
 	.banner-logo {
@@ -437,7 +452,7 @@
 	 }
 	 .circle .time_circles > div > h4 {
 	  font-size: 14px!important;
-	  margin-top: 25px;	 
+	  margin-top: 25px;
 	 }
 	 .timing .time_circles > div > span[style] {
 	  font-size: 18px!important;
@@ -470,7 +485,7 @@
 		width: 100%;
 	}
 
-	
+
 	.heading h3 { font-size: 24px;}
 	.heading h3::after {
 		content: url(../../images/icon/heading_rignt_responsive.png);
@@ -496,5 +511,10 @@
 .comment-block { padding: 30px 10px; }
 .comment-block .media-list { padding-left: 10px; }
 .comment-block ul.media-list + ul { padding-left: 15px;}
+.banner-logo{
+    margin:0px;
 }
-
+.banner .wrapper{
+    padding-bottom:0px;
+}
+}
