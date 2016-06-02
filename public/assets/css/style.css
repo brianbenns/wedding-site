@@ -90,7 +90,7 @@ h5 small {
 	display: block;
 	font-family: 'PT Sans', sans-serif;
 	font-size: 16px;
-	color: #e1704b;
+	color: #b5a77e;
 	line-height: 28px;
 	letter-spacing: 0.025em;
 }
@@ -99,9 +99,9 @@ p {
 	font-weight: 400;
 }
 
-a {color: #d44646}
-a:hover {color: #d44646; text-decoration: none;}
-a:active {color: #d44646;}
+a {color: #451A3F}
+a:hover {color: #451A3F; text-decoration: none;}
+a:active {color: #451A3F;}
 
 ul, li {
 	list-style: none;
@@ -129,8 +129,8 @@ ul, li {
 	border-radius: 0px;
 }
 .default-btn:hover {
-	background: #D44646;
-	border: 1px solid #D44646;
+	background: #451A3F;
+	border: 1px solid #451A3F;
 }
 .default-btn:hover,
 .default-btn.active,
@@ -317,7 +317,7 @@ ul, li {
 	background: #fff;
 }
 .nav-block ul.navbar-nav > li > ul > li a {
-	color: #D44646;
+	color: #451A3F;
 	font-size: 14px;
 	padding: 10px 20px;
 }
@@ -379,8 +379,8 @@ ul, li {
 	position: relative;
 	display: inline-block;
 	background: url(../../images/icon/ArtDecoLogo.png) no-repeat center center;
-	width: 310px;
-	height: 305px;
+	width: 370px;
+	height: 370px;
 	padding: 115px 0px;
 	margin-top: 80px;
 	margin-bottom: 107px;
@@ -498,7 +498,7 @@ ul, li {
   }
 
 .color-overlay-bg {
-    /*background: rgba(126, 97, 97, .3);*/
+    background: rgba(126, 97, 97, .1);
     position: absolute;
     width: 100%;
     top: 0px;
@@ -955,7 +955,7 @@ ul, li {
     width: 106px;
     height: 106px;
     margin-left: -53px;
-    background: #d44646;
+    background: #451A3F;
     color: #fff;
     border-radius: 50%;
     text-align: center;
