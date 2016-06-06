@@ -8,7 +8,7 @@ app.get('/', function (req, res) {
   res.render('index')
 });
 
-app.get('/blog', function (req, res) {
+app.get('/hotel', function (req, res) {
   res.render('blog')
 });
 
