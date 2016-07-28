@@ -977,7 +977,7 @@ ul, li {
 }
 .gift-block {
 	position: relative;
-    padding: 65px 20px;
+;
     text-align: center;
 	border: 3px solid #D3D3D3;
     background: rgba(219,219,219,.9);
