@@ -37,6 +37,12 @@ spec:
           protocol: TCP
         resources: {}
         terminationMessagePath: /dev/termination-log
+        livenessProbe:
+          httpGet:
+            path: /
+            port: 5000
+          initialDelaySeconds: 3
+          periodSeconds: 3
       dnsPolicy: ClusterFirst
       restartPolicy: Always
       securityContext: {}
