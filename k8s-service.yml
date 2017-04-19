@@ -1,0 +1,24 @@
+apiVersion: v1
+kind: Service
+metadata:
+  creationTimestamp: 2017-04-19T15:44:25Z
+  labels:
+    app: bbtest
+  name: bbtest-service
+  namespace: default
+  resourceVersion: "2741375"
+  selfLink: /api/v1/namespaces/default/services/bbtest-service
+  uid: 10fb4fc9-2517-11e7-809a-0e6145ad429e
+spec:
+  clusterIP: 100.64.100.227
+  ports:
+  - nodePort: 31805
+    port: 5000
+    protocol: TCP
+    targetPort: 5000
+  selector:
+    app: bbtest
+  sessionAffinity: None
+  type: NodePort
+status:
+  loadBalancer: {}
